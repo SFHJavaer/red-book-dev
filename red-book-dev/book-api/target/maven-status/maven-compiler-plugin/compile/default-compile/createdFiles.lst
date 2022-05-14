@@ -1,0 +1,15 @@
+com\imooc\controller\MsgController.class
+com\imooc\Knife4jConfig.class
+com\imooc\controller\HelloController.class
+com\imooc\MinIOConfig.class
+com\imooc\interceptor\PassportInterceptor.class
+com\imooc\RabbitMQConfig.class
+com\imooc\interceptor\UserTokenInterceptor.class
+com\imooc\controller\CommentController.class
+com\imooc\InterceptorConfig.class
+com\imooc\controller\UserInfoController.class
+com\imooc\RabbitMQConsumer.class
+com\imooc\controller\FileController.class
+com\imooc\controller\passortController.class
+com\imooc\Application.class
+com\imooc\controller\VlogController.class

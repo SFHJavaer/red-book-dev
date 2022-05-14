@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/book-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/book-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/book-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/book-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/book-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-generator-database-mysql8" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-generator-for-imooc" charset="UTF-8" />
+  </component>
+</project>

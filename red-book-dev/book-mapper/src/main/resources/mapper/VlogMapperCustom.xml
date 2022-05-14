@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.mapper.VlogMapperCustom">
+    <select id="getIndexVlogList" parameterType="map" resultType="com.imooc.vo.IndexVlogVO">
+        SELECT
+            v.id as vlogId,
+            v.vloger_id as vlogerId,
+            u.face as vlogerFace,
+            u.nickname as vlogerName,
+            v.title as content,
+            v.url as url,
+            v.cover as cover,
+            v.width as width,
+            v.height as height,
+            v.like_counts as likeCounts,
+            v.comments_counts as commentsCounts,
+            v.is_private as isPrivate
+        FROM
+	        vlog v
+        LEFT JOIN
+            users u
+        on
+            v.vloger_id = u.id
+        where
+            v.is_private = 0
+            <!--动态SQL拼接-->
+        <if test="paramMap.search != null and paramMap.search != '' ">
+            AND
+            <!--如果满足动态条件，因为值为Object，所以需要使用$字符串拼接，因为外面引号已经固定了，所以不会产生SQL注入问题-->
+            <!--使用#默认会添加上引号来防止SQL注入，所以这里只能用$-->
+            <!--错误示范：v.title LIKE ('%' + #{paramMap.search} + '%')-->
+            <!--下面得出一个结论，串不管是不是字符串形式，最后有没有引号是由占位符决定的-->
+            v.title LIKE '%${paramMap.search}%'
+        </if>
+
+        ORDER BY
+            v.created_time
+        DESC
+    </select>
+    <select id="getVlogDetailById" resultType="com.imooc.vo.IndexVlogVO" parameterType="map">
+        SELECT
+            v.id AS vlogId,
+            v.vloger_id AS vlogerId,
+            u.face AS vlogerFace,
+            u.nickname AS vlogerName,
+            v.title AS content,
+            v.url AS url,
+            v.cover AS cover,
+            v.width AS width,
+            v.height AS height,
+            v.like_counts AS likeCounts,
+            v.comments_counts AS commentsCounts,
+            v.is_private AS isPrivate
+        FROM
+            vlog v
+            LEFT JOIN users u ON v.vloger_id = u.id
+        WHERE
+        <!--id都是用varchar形式，在访问时也使用#{}自动转换为字符串进行查询（占位）-->
+            v.id = #{paramMap.vlogId}
+    </select>
+    <!--多表关联查询在规范上最多是三张表进行关联，关联使用的ON条件一定是表之间的外键关联，不管是不是物理的，不是外键不能关联
+      ON语句代表了具体的两表之间的关联关系，A LEFT JOIN B ON 。。。。where。。。（where是对数据集的具体筛选）
+      上述语句代表：左连接A表，如果B表的外键对应的值在A表没有，那么A表的数据同样以null与B表的外键数据进行对应并返回
+      ON使用。。。的外键之间的关联语句
+      -->
+    <select id="getMyLikedVlogList" parameterType="map" resultType="com.imooc.vo.IndexVlogVO">
+        SELECT
+            v.id as vlogId,
+            v.vloger_id as vlogerId,
+            <!--u.face as vlogerFace,-->
+            <!--u.nickname as vlogerName,-->
+            v.title as content,
+            v.url as url,
+            v.cover as cover,
+            v.width as width,
+            v.height as height,
+            v.like_counts as likeCounts,
+            v.comments_counts as commentsCounts,
+            v.is_private as isPrivate
+        FROM
+            vlog v
+        LEFT JOIN
+            my_liked_vlog mlv
+        ON
+            v.id = mlv.vlog_id
+        LEFT JOIN
+            users u
+        ON
+            mlv.user_id = u.id
+        WHERE
+            u.id = #{paramMap.userId}
+          AND
+            v.is_private = 0
+        ORDER BY
+            v.created_time
+        DESC
+    </select>
+
+    <select id="getMyFollowVlogList" parameterType="map" resultType="com.imooc.vo.IndexVlogVO">
+        SELECT
+            v.id as vlogId,
+            v.vloger_id as vlogerId,
+            u.face as vlogerFace,
+            u.nickname as vlogerName,
+            v.title as content,
+            v.url as url,
+            v.cover as cover,
+            v.width as width,
+            v.height as height,
+            v.like_counts as likeCounts,
+            v.comments_counts as commentsCounts,
+            v.is_private as isPrivate
+        FROM
+            vlog v
+        LEFT JOIN
+            fans f
+        ON
+            v.vloger_id = f.vloger_id
+        LEFT JOIN
+            users u
+        ON
+            f.vloger_id = u.id
+        WHERE
+            v.is_private = 0
+          AND
+            f.fan_id = #{paramMap.myId}
+        ORDER BY
+            v.created_time
+        DESC
+    </select>
+    <!--
+    思考查询朋友视频和关注视频SQL能不能合并，如果可以的话那么业务方法都可以合并
+    -->
+
+    <select id="getMyFriendVlogList" parameterType="map" resultType="com.imooc.vo.IndexVlogVO">
+        SELECT
+            v.id as vlogId,
+            v.vloger_id as vlogerId,
+            u.face as vlogerFace,
+            u.nickname as vlogerName,
+            v.title as content,
+            v.url as url,
+            v.cover as cover,
+            v.width as width,
+            v.height as height,
+            v.like_counts as likeCounts,
+            v.comments_counts as commentsCounts,
+            v.is_private as isPrivate
+        FROM
+            vlog v
+        LEFT JOIN
+            fans f
+        ON
+            v.vloger_id = f.fan_id
+        LEFT JOIN
+            users u
+        ON
+            f.fan_id = u.id
+        WHERE
+            v.is_private = 0
+          AND
+            f.vloger_id = #{paramMap.myId}
+          AND
+            f.is_fan_friend_of_mine = 1
+        ORDER BY
+            v.created_time
+        DESC
+    </select>
+</mapper>

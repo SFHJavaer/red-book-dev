@@ -1,0 +1,10 @@
+com\imooc\service\MsgService.class
+com\imooc\service\CommentService.class
+com\imooc\service\VlogService.class
+com\imooc\service\impl\VlogServiceImpl.class
+com\imooc\base\BaseInfoProperties.class
+com\imooc\service\impl\UserServiceImpl.class
+com\imooc\service\impl\CommentServiceImpl.class
+com\imooc\base\RabbitMQConfig.class
+com\imooc\service\impl\MsgServiceImpl.class
+com\imooc\service\UserService.class
