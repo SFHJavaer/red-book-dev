@@ -57,5 +57,5 @@ Nacos作为分布式配置中心，部署Nacos完成阈值入库业务
 
 #### 效果图：
 
-<img src="https://s2.loli.net/2022/06/24/OU3FaQBlfd8Hurm.jpg" style="zoom:15%;" /><img src="https://s2.loli.net/2022/06/24/4BsWExympNbkMor.jpg" style="zoom:25%;" /><img src="https://s2.loli.net/2022/06/24/ZQtjMXzmqkIHcs1.jpg" style="zoom:25%;" /><img src="https://s2.loli.net/2022/06/24/WwgJB2hkLiPIqZS.jpg" style="zoom:25%;" />
+![123](https://s2.loli.net/2022/06/24/OU3FaQBlfd8Hurm.jpg)<img src="" style="zoom:15%;" /><img src="https://s2.loli.net/2022/06/24/4BsWExympNbkMor.jpg" style="zoom:25%;" /><img src="https://s2.loli.net/2022/06/24/ZQtjMXzmqkIHcs1.jpg" style="zoom:25%;" /><img src="https://s2.loli.net/2022/06/24/WwgJB2hkLiPIqZS.jpg" style="zoom:25%;" />
 
