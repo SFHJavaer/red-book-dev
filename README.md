@@ -2,7 +2,7 @@
 
 
 
-##### APP模块：
+#### APP模块：
 
 ​		1、用户模块
 ​		2、视频模块
@@ -10,13 +10,14 @@
 ​		4、留言评论模块
 ​		5、消息模块
 
-###### 项目架构图：
+#### 项目架构图：
 
 ![qRTCJ.png](https://s1.328888.xyz/2022/05/14/qRTCJ.png)
 
 
 
-##### 开发流程：
+#### 开发流程：
+
 ###### 根据前端界面构建后端项目：
 数据库的选型，
 工程构建，使用逆向工程生成实体类和Mapper
@@ -37,4 +38,10 @@ MinIO实现用户修改头像与背景图
 ###### RabbitMQ 异步解耦
 ###### 使用Nacos进行一定数量的定量入库（动态配置中心）
 ###### 发布项目 部署云端
+
+#### 效果图：
+
+
+
+<img src="https://s2.loli.net/2022/06/24/OU3FaQBlfd8Hurm.jpg" style="zoom:25%;" /><img src="https://s2.loli.net/2022/06/24/4BsWExympNbkMor.jpg" style="zoom:25%;" /><img src="https://s2.loli.net/2022/06/24/ZQtjMXzmqkIHcs1.jpg" style="zoom:25%;" /><img src="https://s2.loli.net/2022/06/24/WwgJB2hkLiPIqZS.jpg" style="zoom:25%;" />
 
