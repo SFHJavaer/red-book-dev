@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="618c3850-8024-4b41-89af-e4105fd07a45" name="默认更改列表" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/book-api/target/" />
-    <ignored path="$PROJECT_DIR$/book-common/target/" />
-    <ignored path="$PROJECT_DIR$/book-model/target/" />
-    <ignored path="$PROJECT_DIR$/book-mapper/target/" />
-    <ignored path="$PROJECT_DIR$/book-service/target/" />
-    <ignored path="$PROJECT_DIR$/mybatis-generator-database-mysql8/target/" />
-    <ignored path="$PROJECT_DIR$/mybatis-generator-for-imooc/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="618c3850-8024-4b41-89af-e4105fd07a45" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-red-book-dev.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,64 +28,6 @@
     </option>
     <expand />
     <select />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/VlogController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="59" column="7" lean-forward="true" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/VlogService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/VlogServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="192" column="25" lean-forward="true" selection-start-line="192" selection-start-column="25" selection-end-line="192" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/VlogServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="162" column="21" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-common/src/main/java/com/imooc/utils/PagedGridResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -132,6 +72,9 @@
       <find>detail</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -152,7 +95,7 @@
         <option value="$PROJECT_DIR$/book-mapper/target/classes/mapper/VlogMapperCustom.xml" />
         <option value="$PROJECT_DIR$/book-common/src/main/java/com/imooc/grace/result/ResponseStatusEnum.java" />
         <option value="$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/FansService.java" />
-        <option value="$USER_HOME$/Desktop/imooc-red-book/后端源码（基础）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/FansServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../imooc-red-book/后端源码（基础）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/FansServiceImpl.java" />
         <option value="$PROJECT_DIR$/book-api/src/main/java/com/imooc/FinalShell.java" />
         <option value="$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/FansController.java" />
         <option value="$PROJECT_DIR$/book-common/src/main/java/com/imooc/utils/BaseInfoProperties.java" />
@@ -169,7 +112,7 @@
         <option value="$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/MsgServiceImpl.java" />
         <option value="$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/MsgController.java" />
         <option value="$PROJECT_DIR$/book-service/src/main/java/com/imooc/base/BaseInfoProperties.java" />
-        <option value="$USER_HOME$/Desktop/seckill/src/main/java/com/config/RabbitMQTopicConfig.java" />
+        <option value="$PROJECT_DIR$/../seckill/src/main/java/com/config/RabbitMQTopicConfig.java" />
         <option value="$PROJECT_DIR$/book-service/src/main/java/com/imooc/base/RabbitMQConfig.java" />
         <option value="$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/FansServiceImpl.java" />
         <option value="$PROJECT_DIR$/book-common/src/main/java/com/imooc/enums/MessageEnum.java" />
@@ -184,17 +127,20 @@
         <option value="$PROJECT_DIR$/book-api/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/book-api/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/VlogServiceImpl.java" />
-        <option value="$USER_HOME$/Desktop/imooc-red-book-dev-master/book-api/src/main/java/com/imooc/controller/VlogController.java" />
+        <option value="$PROJECT_DIR$/../imooc-red-book-dev-master/book-api/src/main/java/com/imooc/controller/VlogController.java" />
         <option value="$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/VlogController.java" />
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="H:\Maven\repository" />
-        <option name="mavenHome" value="H:/Maven" />
-        <option name="userSettingsFile" value="H:\Maven\conf\settings.xml" />
+        <option name="localRepository" value="E:\Maven\repository" />
+        <option name="mavenHome" value="E:/Maven" />
+        <option name="userSettingsFile" value="E:\Maven\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -210,6 +156,8 @@
     <option name="width" value="1296" />
     <option name="height" value="696" />
   </component>
+  <component name="ProjectId" id="2C9UiAEx3XqqiZuLG0HSZySNCOv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="true" />
@@ -521,23 +469,15 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1652436998957" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/book-mapper/src/main/java" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="模块" />
-    <property name="project.structure.proportion" value="0.15429688" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.imooc.service.impl" />
@@ -558,19 +498,7 @@
       <recent name="C:\Users\24286\IdeaProjects\imooc-red-book-dev\book-common\src\main\java" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Spring Boot.Application (1)">
     <configuration name="AdminGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.thrd.mybatis.util.AdminGenerator" />
       <module name="mybatis-generator-database" />
@@ -610,15 +538,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="book-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="bookapi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.Application" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.imooc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -632,6 +567,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -663,6 +599,7 @@
       <workItem from="1652364507515" duration="1593000" />
       <workItem from="1652425365727" duration="8908000" />
       <workItem from="1652438188912" duration="2986000" />
+      <workItem from="1658214419601" duration="380000" />
     </task>
     <servers />
   </component>
@@ -754,7 +691,45 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/book-model/src/main/java/com/imooc/pojo/Comment.java">
@@ -784,7 +759,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/imooc-red-book/后端源码（基础）/imooc-red-book-dev/book-api/src/main/java/com/imooc/controller/CommentController.java">
+    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（基础）/imooc-red-book-dev/book-api/src/main/java/com/imooc/controller/CommentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2739">
           <caret line="105" column="36" selection-start-line="105" selection-start-column="36" selection-end-line="105" selection-end-column="36" />
@@ -803,7 +778,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/imooc-red-book/后端源码（基础）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/CommentServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（基础）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/CommentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
@@ -812,7 +787,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/book-model/src/main/java/com/imooc/repository.java" />
     <entry file="file://$PROJECT_DIR$/book-mapper/src/main/java/repository/MessageRepository.java" />
-    <entry file="file://$USER_HOME$/Desktop/imooc-red-book/后端源码（基础）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/FansServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（基础）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/FansServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="73" column="11" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="11" />
@@ -826,7 +801,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/imooc-red-book/后端源码（基础）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/VlogServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（基础）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/VlogServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="45" column="34" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="45" selection-end-column="34" />
@@ -851,7 +826,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/imooc-red-book/后端源码（基础）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/MsgServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（基础）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/MsgServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="85" selection-end-column="9" />
@@ -878,7 +853,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/seckill/src/main/java/com/config/RabbitMQTopicConfig.java">
+    <entry file="file://$PROJECT_DIR$/../seckill/src/main/java/com/config/RabbitMQTopicConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
@@ -896,7 +871,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-api/src/main/java/com/imooc/controller/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-api/src/main/java/com/imooc/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
@@ -920,7 +895,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/FansServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/FansServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="81" column="51" lean-forward="true" selection-start-line="74" selection-start-column="7" selection-end-line="81" selection-end-column="51" />
@@ -930,7 +905,7 @@
     <entry file="file://$PROJECT_DIR$/book-common/src/main/java/com/imooc/utils/JsonUtils.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-common/src/main/java/com.imooc.enums/MessageEnum.java">
+    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-common/src/main/java/com.imooc.enums/MessageEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="8" column="20" selection-end-line="22" />
@@ -991,7 +966,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-api/src/main/java/com/imooc/RabbitMQConsumer.java">
+    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-api/src/main/java/com/imooc/RabbitMQConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1287">
           <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
@@ -1015,7 +990,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/VlogService.java">
+    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/VlogService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="84" column="4" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="87" selection-end-column="59" />
@@ -1094,7 +1069,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/imooc-red-book-dev-master/book-api/src/main/java/com/imooc/controller/VlogController.java">
+    <entry file="file://$PROJECT_DIR$/../imooc-red-book-dev-master/book-api/src/main/java/com/imooc/controller/VlogController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
@@ -1108,7 +1083,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-api/src/main/java/com/imooc/controller/VlogController.java">
+    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-api/src/main/java/com/imooc/controller/VlogController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="94" column="52" selection-start-line="94" selection-start-column="52" selection-end-line="94" selection-end-column="52" />
@@ -1135,7 +1110,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/VlogServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/VlogServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
           <caret line="192" column="25" lean-forward="true" selection-start-line="192" selection-start-column="25" selection-end-line="192" selection-end-column="25" />

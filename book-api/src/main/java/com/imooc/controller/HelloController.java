@@ -1,7 +1,8 @@
 package com.imooc.controller;
 
 
-import com.imooc.RabbitMQConfig;
+//import com.imooc.RabbitMQConfig;
+import com.imooc.base.RabbitMQConfig;
 import com.imooc.grace.result.GraceJSONResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;

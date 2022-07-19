@@ -1,5 +1,6 @@
 package com.imooc;
 
+import com.imooc.base.RabbitMQConfig;
 import com.imooc.enums.MessageEnum;
 import com.imooc.exceptions.GraceException;
 import com.imooc.grace.result.ResponseStatusEnum;
