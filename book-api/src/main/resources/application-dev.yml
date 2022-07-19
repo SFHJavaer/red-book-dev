@@ -28,7 +28,7 @@ spring:
       uri: mongodb://root:root@10.8.64.72:27017
       database: imooc-red-book
   rabbitmq:
-    host: localhost
+    host: 10.8.64.72
 #    访问端口和console端口不一样
     port: 5672
     username: admin

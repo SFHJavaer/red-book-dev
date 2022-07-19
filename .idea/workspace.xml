@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="618c3850-8024-4b41-89af-e4105fd07a45" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-red-book-dev.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-api/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +142,11 @@
         <option name="mavenHome" value="E:/Maven" />
         <option name="userSettingsFile" value="E:\Maven\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="uusafe-profile" />
+      </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -474,7 +479,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "15",
+    "RequestMappingsPanelWidth1": "15",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
@@ -599,7 +610,7 @@
       <workItem from="1652364507515" duration="1593000" />
       <workItem from="1652425365727" duration="8908000" />
       <workItem from="1652438188912" duration="2986000" />
-      <workItem from="1658214419601" duration="380000" />
+      <workItem from="1658214419601" duration="4356000" />
     </task>
     <servers />
   </component>
@@ -704,7 +715,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>

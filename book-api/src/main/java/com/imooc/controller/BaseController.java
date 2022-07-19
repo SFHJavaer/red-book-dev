@@ -1,3 +1,8 @@
+//配置用户登陆凭证的Controller（已作废）
+
+
+
+
 //package com.imooc.controller;
 //
 //import com.imooc.utils.RedisOperator;
