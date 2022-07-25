@@ -27,6 +27,13 @@ public class MinIOConfig {
     private Integer fileSize;
 
     @Bean
+    /**
+     * @description:  创建MinIO客户端使用MinIO的Api，需要提供连接参数
+     * @param:
+     * @return: com.imooc.utils.MinIOUtils
+     * @author Administrator
+     * @date: 2022/7/19 20:18
+     */
     public MinIOUtils creatMinioClient() {
         return new MinIOUtils(endpoint, bucketName, accessKey, secretKey, imgSize, fileSize);
     }

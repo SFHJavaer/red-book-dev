@@ -20,8 +20,11 @@ public class InterceptorConfig implements WebMvcConfigurer {
         return new UserTokenInterceptor();
     }
 
+
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
+        //在添加拦截器到WebMvcConfigurer配置中时设置拦截范围，注意只能拦截Controller的请求路径
+        //WebMvcConfigurer这个接口其实可以当作是对SpringWeb配置的模块，即实现JavaConfig的配置接口
         registry.addInterceptor(passportInterceptor())
                 .addPathPatterns("/passport/getSMSCode");
 

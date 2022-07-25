@@ -16,6 +16,13 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2WebMvc;
 public class Knife4jConfig {
 
     @Bean
+    /**
+     * @description: 建造者模式去创建 Docket对象
+     * @param:
+     * @return: springfox.documentation.spring.web.plugins.Docket
+     * @author Administrator
+     * @date: 2022/7/19 20:20
+     */
     public Docket defaultApi2() {
         Docket docket=new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(new ApiInfoBuilder()
