@@ -87,6 +87,7 @@
             v.id = mlv.vlog_id
         LEFT JOIN
             users u
+        <!--join之后一定要on，on关联的是外键，如果外键不进行关联，那么就会变成普通的查多个表数据，关联查询就会变成笛卡尔积，join。。on确定的是关联关系，where才是查询条件-->
         ON
             mlv.user_id = u.id
         WHERE
@@ -132,6 +133,7 @@
     </select>
     <!--
     思考查询朋友视频和关注视频SQL能不能合并，如果可以的话那么业务方法都可以合并
+    完全可以合并，原因成为是朋友的前提是已经关注对方，所以可以调一个Api
     -->
 
     <select id="getMyFriendVlogList" parameterType="map" resultType="com.imooc.vo.IndexVlogVO">
