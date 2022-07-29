@@ -28,7 +28,8 @@ import tk.mybatis.mapper.common.Mapper;
 import tk.mybatis.mapper.common.MySqlMapper;
 
 /**
- * 继承自己的MyMapper
+ * 继承自己的MyMapper,tkMapper已经完成了对单表的通用操作的封装，封装在Mapper接口和MySqlMapper接口；
+ * 因此如果我们要完成对单表的操作，只需自定义Mapper接口继承Mapper接口和MySqlMapper接口
  */
 public interface MyMapper<T> extends Mapper<T>, MySqlMapper<T> {
 }
