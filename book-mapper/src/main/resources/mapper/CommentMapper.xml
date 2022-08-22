@@ -12,6 +12,7 @@
     <result column="comment_user_id" property="commentUserId" jdbcType="VARCHAR" />
     <result column="content" property="content" jdbcType="VARCHAR" />
     <result column="like_counts" property="likeCounts" jdbcType="INTEGER" />
+    <!--column代表数据库字段名，property是生成的Do字段名称，jdbcType是数据的数据库类型-->
     <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
   </resultMap>
 </mapper>

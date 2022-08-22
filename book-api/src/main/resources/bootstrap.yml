@@ -1,8 +1,11 @@
 spring:
+  #下面是Spring微服务注册的服务名的名称，再在Nacos上指示是哪一个服务
   application:
     name: imooc-red-book-nacos
+    #配置具体的cloud云微服务配置
   cloud:
     nacos:
       config:
         server-addr: 10.8.64.72:8848   # nacos 所在的地址
-        file-extension: yaml
+        file-extension: yaml #文件类型必须指定
+        namespace: #选择指定的配置文件可使用namespace

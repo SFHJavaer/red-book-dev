@@ -23,7 +23,14 @@ public class VlogController extends BaseInfoProperties {
 
     @Autowired
     private VlogService vlogService;
-
+    /** 
+     * @description: 这里的没用VO直接用BO是一样的，VlogBO是由前端进行构建的（在insert数据库时会加上创建时间等参数，那时候插入的vlog变量其实就是VLogDO）
+     * 上传的简介等参数都会封装，url在前端上传完之后会自动获取
+     * @param: vlogBO 
+     * @return: com.imooc.grace.result.GraceJSONResult 
+     * @author Administrator
+     * @date: 2022/8/10 16:56
+     */ 
     @PostMapping("publish")
     public GraceJSONResult publish(@RequestBody VlogBO vlogBO) {
         // FIXME 作业，校验VlogBO

@@ -40,9 +40,12 @@ public class FansServiceImpl extends BaseInfoProperties implements FansService {
     private RedisOperator redisOperator;
     @Autowired
     private FansMapperCustom fansMapperCustom;
+    //解耦之后，不直接调msgService去MongoDB存储消息了，而是先让MQ转个手，用队列去消息入库，用MQ的队列还是因为功能多且方便
     @Autowired
     private MsgService msgService;
     @Autowired
+    //服务层调Template来发送消息，一个队列是一个路由键的通配，所以使用topic模式，这个队列再根据具体key去调这个固定的service，一个queue对应一个服务
+    //通配符决定队列也就决定了处理服务，具体的key决定了执行该服务中的哪些方法（手写if判断）
     private RabbitTemplate rabbitTemplate;
     @Override
     public void doFollow(String myId, String vlogerId) {
@@ -67,7 +70,7 @@ public class FansServiceImpl extends BaseInfoProperties implements FansService {
         //当前粉丝插入（userid作为主键），所以两个用户之间的的关注关系，是以其主键分别的两条记录，代表了当前的用户的对vloger即另一个用户的关注情况
         fansMapper.insert(fans);
         /***
-         * 系统消息：关注
+         * 系统消息：关注，消息模块是队列中”消息“的生产者
          * 注意如果某个field为null，那么插入到NOSQL中即mongodb中就不会显示该字段，这是nosql的特性
          * 所以通过一个collection集合，里面的数据是弱关系型的，里面的数据字段不一定是统一的
           */
@@ -75,7 +78,7 @@ public class FansServiceImpl extends BaseInfoProperties implements FansService {
         MessageMO messageMO = new MessageMO();
         messageMO.setFromUserId(myId);
         messageMO.setToUserId(vlogerId);
-        // 优化：使用mq异步解耦
+        // 优化：使用mq异步解耦,交换机、路由键、对象
         rabbitTemplate.convertAndSend(
                 RabbitMQConfig.EXCHANGE_MSG,
                 "sys.msg." + MessageEnum.FOLLOW_YOU.enValue,

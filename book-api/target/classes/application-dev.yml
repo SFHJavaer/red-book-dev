@@ -28,7 +28,7 @@ spring:
       uri: mongodb://root:root@10.8.64.72:27017
       database: imooc-red-book
   rabbitmq:
-    host: localhost
+    host: 10.8.64.72
 #    访问端口和console端口不一样
     port: 5672
     username: admin
@@ -54,8 +54,8 @@ management:
 
 # MinIO 配置
 minio:
-  endpoint: http://10.8.64.72:9090      # MinIO服务地址
-  fileHost: http://10.8.64.72:9090      # 文件地址host
+  endpoint: http://10.8.64.72:9000      # MinIO服务地址
+  fileHost: http://10.8.64.72:9000      # 文件地址host
   bucketName: imooc                      # 存储桶bucket名称
   accessKey: minioadmin                         # 用户名
   secretKey: minioadmin                     # 密码

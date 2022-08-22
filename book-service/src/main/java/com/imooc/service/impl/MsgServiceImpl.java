@@ -46,7 +46,15 @@ public class MsgServiceImpl extends BaseInfoProperties implements MsgService {
 
         messageRepository.save(messageMO);
     }
-
+/**
+ * @description: 消息模块的查询消息业务
+ * @param: toUserId
+page
+pageSize
+ * @return: java.util.List<com.imooc.mo.MessageMO>
+ * @author Administrator
+ * @date: 2022/8/11 14:17
+ */
     @Override
     public List<MessageMO> queryList(String toUserId, Integer page, Integer pageSize) {
         /***
@@ -69,6 +77,7 @@ public class MsgServiceImpl extends BaseInfoProperties implements MsgService {
                 }
 
                 String relationship = redis.get(REDIS_FANS_AND_VLOGGER_RELATIONSHIP + ":" + msg.getToUserId() + ":" + msg.getFromUserId());
+
                 if (StringUtils.isNotBlank(relationship) && relationship.equalsIgnoreCase("1")) {
                     map.put("isFriend", true);
                 } else {

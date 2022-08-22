@@ -10,7 +10,7 @@ public class IPUtil {
     /**
      * 获取请求IP:
      * 用户的真实IP不能使用request.getRemoteAddr()
-     * 这是因为可能会使用一些代理软件，这样ip获取就不准确了
+     * 这是因为可能会使用一些代理软件，这样ip获取就不准确了,所以不只是单一的getRemoteAddr()了，而是进行多级判断，如果不存在继续寻炸真实ip
      * 此外我们如果使用了多级（LVS/Nginx）反向代理的话，ip需要从X-Forwarded-For中获得第一个非unknown的IP才是用户的有效ip。
      * @param request
      * @return

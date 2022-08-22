@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618c3850-8024-4b41-89af-e4105fd07a45" name="默认更改列表" comment="">
+    <list default="true" id="618c3850-8024-4b41-89af-e4105fd07a45" name="默认更改列表" comment="update annotation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/VlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/VlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-api/src/main/java/com/imooc/interceptor/PassportInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/src/main/java/com/imooc/interceptor/PassportInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-api/src/main/java/com/imooc/interceptor/UserTokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/src/main/java/com/imooc/interceptor/UserTokenInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-api/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-api/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-api/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-api/target/classes/com/imooc/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/target/classes/com/imooc/InterceptorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-api/target/classes/com/imooc/Knife4jConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/target/classes/com/imooc/Knife4jConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-api/target/classes/com/imooc/MinIOConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/target/classes/com/imooc/MinIOConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/src/main/java/com/imooc/enums/FileTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/src/main/java/com/imooc/enums/FileTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/src/main/java/com/imooc/utils/IPUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/src/main/java/com/imooc/utils/IPUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/src/main/java/com/imooc/utils/RedisOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/src/main/java/com/imooc/utils/RedisOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/com/imooc/enums/FileTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/com/imooc/enums/FileTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-mapper/src/main/resources/mapper/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-mapper/src/main/resources/mapper/CommentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/FansServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/FansServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/MsgServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/MsgServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +87,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -477,18 +496,19 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "15",
-    "RequestMappingsPanelWidth1": "15",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;42c23f1f41358d61c84c52a8ca5e5fa8&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.imooc.service.impl" />
@@ -509,7 +529,7 @@
       <recent name="C:\Users\24286\IdeaProjects\imooc-red-book-dev\book-common\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (1)">
+  <component name="RunManager" selected="Application.AdminGenerator">
     <configuration name="AdminGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.thrd.mybatis.util.AdminGenerator" />
       <module name="mybatis-generator-database" />
@@ -523,58 +543,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalShell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.FinalShell" />
-      <module name="bookapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GeneratorDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.mybatis.utils.GeneratorDisplay" />
-      <module name="mybatis-generator-for-imooc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.mybatis.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="book-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="bookapi" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.Application" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.AdminGenerator" />
+      <item itemvalue="Spring Boot.Application" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="Application.FinalShell" />
         <item itemvalue="Application.AdminGenerator" />
-        <item itemvalue="Application.GeneratorDisplay" />
       </list>
     </recent_temporary>
   </component>
@@ -610,8 +594,37 @@
       <workItem from="1652364507515" duration="1593000" />
       <workItem from="1652425365727" duration="8908000" />
       <workItem from="1652438188912" duration="2986000" />
-      <workItem from="1658214419601" duration="4356000" />
+      <workItem from="1658214419601" duration="33131000" />
+      <workItem from="1658826542111" duration="375000" />
+      <workItem from="1658826956481" duration="1736000" />
+      <workItem from="1659085219839" duration="1526000" />
+      <workItem from="1659318932869" duration="550000" />
+      <workItem from="1660115103600" duration="6654000" />
+      <workItem from="1660269092801" duration="21494000" />
+      <workItem from="1661135006858" duration="1429000" />
     </task>
+    <task id="LOCAL-00001" summary="update annotation">
+      <created>1658719744409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658719744409</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update annotation">
+      <created>1659085257252</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659085257252</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update annotation">
+      <created>1659085342367</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659085342368</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -710,6 +723,11 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -741,6 +759,25 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="update annotation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/FansServiceImpl.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/book-model/src/main/java/com/imooc/pojo/Comment.java">

@@ -30,7 +30,7 @@ public class PassportInterceptor extends BaseInfoProperties implements HandlerIn
         /**
          *拦截器Boolean
          * false代表请求拦截
-         *true代表请求放行
+         * true代表请求放行
         */
         return true;
     }

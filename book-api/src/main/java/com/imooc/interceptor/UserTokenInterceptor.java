@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @Slf4j
 public class UserTokenInterceptor extends BaseInfoProperties implements HandlerInterceptor {
-
+    //通过请求头来校验修改资料权限
     @Override
     public boolean preHandle(HttpServletRequest request,
                              HttpServletResponse response, Object handler) throws Exception {
@@ -24,7 +24,7 @@ public class UserTokenInterceptor extends BaseInfoProperties implements HandlerI
         String userId = request.getHeader("headerUserId");
         String userToken = request.getHeader("headerUserToken");
 
-        // 判断header中用户id和token不能为空
+        // 判断header中用户id和token不能为空，根据config的配置可以知道是用于在用户相关图片修改以及基础信息的修改（密码不算基础信息）
         if (StringUtils.isNotBlank(userId) && StringUtils.isNotBlank(userToken)) {
             String redisToken = redis.get(REDIS_USER_TOKEN + ":" + userId);
             if (StringUtils.isBlank(redisToken)) {

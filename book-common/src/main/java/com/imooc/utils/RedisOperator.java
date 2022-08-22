@@ -26,7 +26,7 @@ public class RedisOperator {
 	// Key（键），简单的key-value操作
 
 	/**
-	 * 判断key是否存在
+	 * 判断key是否存在，对Redis的hasKey进行封装
 	 * @param key
 	 * @return
 	 */
