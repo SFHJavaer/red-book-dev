@@ -5,25 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="618c3850-8024-4b41-89af-e4105fd07a45" name="默认更改列表" comment="update annotation">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/VlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/VlogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-api/src/main/java/com/imooc/interceptor/PassportInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/src/main/java/com/imooc/interceptor/PassportInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-api/src/main/java/com/imooc/interceptor/UserTokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/src/main/java/com/imooc/interceptor/UserTokenInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-api/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-api/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-api/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-api/target/classes/com/imooc/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/target/classes/com/imooc/InterceptorConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-api/target/classes/com/imooc/Knife4jConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/target/classes/com/imooc/Knife4jConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-api/target/classes/com/imooc/MinIOConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-api/target/classes/com/imooc/MinIOConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-common/src/main/java/com/imooc/enums/FileTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/src/main/java/com/imooc/enums/FileTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-common/src/main/java/com/imooc/utils/IPUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/src/main/java/com/imooc/utils/IPUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-common/src/main/java/com/imooc/utils/RedisOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/src/main/java/com/imooc/utils/RedisOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-common/target/classes/com/imooc/enums/FileTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/com/imooc/enums/FileTypeEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-mapper/src/main/resources/mapper/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-mapper/src/main/resources/mapper/CommentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/FansServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/FansServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/MsgServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/MsgServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/com/imooc/exceptions/GraceExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/com/imooc/exceptions/GraceExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/com/imooc/utils/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/com/imooc/utils/DateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/com/imooc/utils/DesensitizationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/com/imooc/utils/DesensitizationUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/com/imooc/utils/IPUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/com/imooc/utils/IPUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/com/imooc/utils/JsonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/com/imooc/utils/JsonUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/com/imooc/utils/MinIOUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/com/imooc/utils/MinIOUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/com/imooc/utils/RedisOperator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/com/imooc/utils/RedisOperator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/com/imooc/utils/SMSUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/com/imooc/utils/SMSUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/com/imooc/utils/TencentCloudProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/com/imooc/utils/TencentCloudProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/Sid$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/Sid$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/Sid.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/Sid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/strategy/FileLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/strategy/FileLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/utils/HttpReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/utils/HttpReq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/utils/IPv4Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/utils/IPv4Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/utils/Ip.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/utils/Ip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/utils/Props.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/utils/Props.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/utils/Serializes.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/utils/Serializes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-common/target/classes/org/n3r/idworker/utils/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-mapper/src/main/java/com/imooc/repository/MessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-mapper/src/main/java/com/imooc/repository/MessageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-model/target/classes/com/imooc/bo/CommentBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-model/target/classes/com/imooc/bo/CommentBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-model/target/classes/com/imooc/bo/RegistLoginBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-model/target/classes/com/imooc/bo/RegistLoginBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-model/target/classes/com/imooc/bo/UpdatedUserBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-model/target/classes/com/imooc/bo/UpdatedUserBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-model/target/classes/com/imooc/bo/VlogBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-model/target/classes/com/imooc/bo/VlogBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-model/target/classes/com/imooc/mo/MessageMO.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-model/target/classes/com/imooc/mo/MessageMO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-model/target/classes/com/imooc/model/Stu.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-model/target/classes/com/imooc/model/Stu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-model/target/classes/com/imooc/vo/CommentVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-model/target/classes/com/imooc/vo/CommentVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-model/target/classes/com/imooc/vo/FansVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-model/target/classes/com/imooc/vo/FansVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-model/target/classes/com/imooc/vo/IndexVlogVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-model/target/classes/com/imooc/vo/IndexVlogVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-model/target/classes/com/imooc/vo/UsersVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-model/target/classes/com/imooc/vo/UsersVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-model/target/classes/com/imooc/vo/VlogerVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-model/target/classes/com/imooc/vo/VlogerVO.class" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/book-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis-generator-database-mysql8/target/" />
+    <ignored path="$PROJECT_DIR$/book-common/target/" />
+    <ignored path="$PROJECT_DIR$/book-api/target/" />
+    <ignored path="$PROJECT_DIR$/book-service/target/" />
+    <ignored path="$PROJECT_DIR$/book-model/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +70,61 @@
     <expand />
     <select />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="550">
+                <caret line="22" selection-start-line="22" selection-end-line="22" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/interceptor/PassportInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-model/src/main/java/com/imooc/vo/ShowMeBug.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="775">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/VlogServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="797">
+              <caret line="387" column="1" lean-forward="true" selection-start-line="387" selection-start-column="1" selection-end-line="387" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/interceptor/UserTokenInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -54,8 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>advert</find>
-      <find>admin</find>
       <find>com.imooc.vo.CommentVO</find>
       <find>get</find>
       <find>request</find>
@@ -84,22 +164,27 @@
       <find>mypublic</find>
       <find>querymy</find>
       <find>detail</find>
+      <find>正则</find>
+      <find>redis</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\github.io\red-book-dev</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/book-api/src/main/java/com/imooc/Knife4jConfig.java" />
-        <option value="$PROJECT_DIR$/book-api/src/main/java/com/imooc/interceptor/PassportInterceptor.java" />
-        <option value="$PROJECT_DIR$/book-common/src/main/resources/tencentcloud.properties" />
         <option value="$PROJECT_DIR$/book-api/src/main/java/com/imooc/enums/UserInfoModifyType.java" />
         <option value="$PROJECT_DIR$/book-common/src/main/java/com/imooc/utils/SMSUtils.java" />
         <option value="$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/passortController.java" />
@@ -127,7 +212,6 @@
         <option value="$PROJECT_DIR$/book-api/src/main/java/com/imooc/Application.java" />
         <option value="$PROJECT_DIR$/book-model/src/main/java/com/imooc/mo/MessageMO.java" />
         <option value="$PROJECT_DIR$/book-model/src/main/java/com/imooc/repository/MessageRepository.java" />
-        <option value="$PROJECT_DIR$/book-mapper/src/main/java/com/imooc/repository/MessageRepository.java" />
         <option value="$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/MsgServiceImpl.java" />
         <option value="$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/MsgController.java" />
         <option value="$PROJECT_DIR$/book-service/src/main/java/com/imooc/base/BaseInfoProperties.java" />
@@ -148,6 +232,10 @@
         <option value="$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/VlogServiceImpl.java" />
         <option value="$PROJECT_DIR$/../imooc-red-book-dev-master/book-api/src/main/java/com/imooc/controller/VlogController.java" />
         <option value="$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/VlogController.java" />
+        <option value="$PROJECT_DIR$/book-mapper/src/main/java/com/imooc/repository/MessageRepository.java" />
+        <option value="$PROJECT_DIR$/book-api/src/main/java/com/imooc/interceptor/PassportInterceptor.java" />
+        <option value="$PROJECT_DIR$/book-model/src/main/java/com/imooc/vo/Main.java" />
+        <option value="$PROJECT_DIR$/book-model/src/main/java/com/imooc/vo/ShowMeBug.java" />
       </list>
     </option>
   </component>
@@ -162,11 +250,6 @@
         <option name="userSettingsFile" value="E:\Maven\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="enabledProfiles">
-      <list>
-        <option value="uusafe-profile" />
-      </list>
-    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -174,7 +257,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="221" />
     <option name="y" value="248" />
     <option name="width" value="1296" />
@@ -189,326 +272,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="red-book-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="red-book-dev" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-api" type="462c0819:PsiDirectoryNode" />
+              <item name="red-book-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="red-book-dev" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-api" type="462c0819:PsiDirectoryNode" />
+              <item name="red-book-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="red-book-dev" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="result" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc-red-book-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc-red-book-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="book-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;42c23f1f41358d61c84c52a8ca5e5fa8&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1665393938159" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15429688" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.imooc.service.impl" />
@@ -529,13 +331,58 @@
       <recent name="C:\Users\24286\IdeaProjects\imooc-red-book-dev\book-common\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdminGenerator">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="AdminGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.thrd.mybatis.util.AdminGenerator" />
       <module name="mybatis-generator-database" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.thrd.mybatis.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.vo.Main" />
+      <module name="book-model" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.vo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="book-model" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowMeBug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.vo.ShowMeBug" />
+      <module name="book-model" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.vo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -552,17 +399,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AdminGenerator" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="应用程序.AdminGenerator" />
+      <item itemvalue="应用程序.Main" />
+      <item itemvalue="应用程序.Main (1)" />
+      <item itemvalue="应用程序.ShowMeBug" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="Application.AdminGenerator" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -602,6 +451,16 @@
       <workItem from="1660115103600" duration="6654000" />
       <workItem from="1660269092801" duration="21494000" />
       <workItem from="1661135006858" duration="1429000" />
+      <workItem from="1663487608533" duration="6241000" />
+      <workItem from="1663649796621" duration="1024000" />
+      <workItem from="1664094817272" duration="3542000" />
+      <workItem from="1664184480323" duration="657000" />
+      <workItem from="1664368010179" duration="66000" />
+      <workItem from="1665138952540" duration="1393000" />
+      <workItem from="1665320268352" duration="37000" />
+      <workItem from="1665374895603" duration="1121000" />
+      <workItem from="1671020465295" duration="267000" />
+      <workItem from="1672556700577" duration="4886000" />
     </task>
     <task id="LOCAL-00001" summary="update annotation">
       <created>1658719744409</created>
@@ -628,7 +487,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110302000" />
+    <option name="totallyTimeSpent" value="129536000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,10 +499,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26119402" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.1684435" />
+      <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.1716418" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -652,17 +512,17 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3275488" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="RNConsole" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32936078" />
@@ -715,7 +575,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -723,10 +583,11 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
               </option>
               <option name="FILTERS">
                 <map>
@@ -738,6 +599,14 @@
                     </value>
                   </entry>
                 </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
               </option>
             </State>
           </value>
@@ -769,8 +638,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/FansServiceImpl.java</url>
-          <line>76</line>
+          <line>79</line>
+          <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/book-model/src/main/java/com/imooc/vo/ShowMeBug.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -780,216 +656,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/book-model/src/main/java/com/imooc/pojo/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1980">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/CommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="73" column="51" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（基础）/imooc-red-book-dev/book-api/src/main/java/com/imooc/controller/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2739">
-          <caret line="105" column="36" selection-start-line="105" selection-start-column="36" selection-end-line="105" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/CommentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="95" column="31" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4046#4047#0" expanded="true" />
-            <element signature="e#4105#4106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（基础）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/CommentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-model/src/main/java/com/imooc/repository.java" />
-    <entry file="file://$PROJECT_DIR$/book-mapper/src/main/java/repository/MessageRepository.java" />
-    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（基础）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/FansServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="73" column="11" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-model/src/main/java/com/imooc/pojo/Vlog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（基础）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/VlogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="45" column="34" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="45" selection-end-column="34" />
-          <folding>
-            <element signature="e#6646#6647#0" expanded="true" />
-            <element signature="e#6702#6703#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-mapper/src/main/java/com/imooc/repository/MessageRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.5.4/spring-data-commons-2.5.4.jar!/org/springframework/data/domain/PageRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（基础）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/MsgServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="85" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/imooc/base/BaseInfoProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/MsgController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../seckill/src/main/java/com/config/RabbitMQTopicConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding>
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-api/src/main/java/com/imooc/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.3.10/spring-amqp-2.3.10.jar!/org/springframework/amqp/core/Message.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/MsgServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/FansServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="81" column="51" lean-forward="true" selection-start-line="74" selection-start-column="7" selection-end-line="81" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-common/src/main/java/com/imooc/utils/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-common/src/main/java/com.imooc.enums/MessageEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="20" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/FansServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="81" column="47" lean-forward="true" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/MsgService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1881">
@@ -1004,26 +670,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-api/src/main/java/com/imooc/RabbitMQConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1287">
-          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-api/src/main/java/com/imooc/RabbitMQConsumer.java" />
     <entry file="file://$PROJECT_DIR$/book-common/src/main/java/com/imooc/enums/MessageEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -1038,40 +685,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/VlogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="84" column="4" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="87" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#663#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/RabbitMQConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/RabbitMQConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/VlogService.java" />
+    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/RabbitMQConfig.java" />
     <entry file="file://$PROJECT_DIR$/book-api/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1096,20 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-api/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-api/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1221">
-          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book-mapper/src/main/resources/mapper/VlogMapperCustom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-246">
@@ -1117,13 +718,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../imooc-red-book-dev-master/book-api/src/main/java/com/imooc/controller/VlogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../imooc-red-book-dev-master/book-api/src/main/java/com/imooc/controller/VlogController.java" />
     <entry file="file://$PROJECT_DIR$/book-common/src/main/java/com/imooc/utils/PagedGridResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-51">
@@ -1131,44 +726,278 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-api/src/main/java/com/imooc/controller/VlogController.java">
+    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-api/src/main/java/com/imooc/controller/VlogController.java" />
+    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/VlogServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/book-mapper/src/main/resources/mapper/CommentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="94" column="52" selection-start-line="94" selection-start-column="52" selection-end-line="94" selection-end-column="52" />
+        <state relative-caret-position="425">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-api/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-api/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/FinalShell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#663#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/MinIOConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/Knife4jConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/passortController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/InterceptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/VlogService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        <state relative-caret-position="323">
+          <caret line="36" column="53" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/VlogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="162" column="21" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../imooc-red-book/后端源码（进阶）/imooc-red-book-dev/book-service/src/main/java/com/imooc/service/impl/VlogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="192" column="25" lean-forward="true" selection-start-line="192" selection-start-column="25" selection-end-line="192" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/VlogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="59" column="7" lean-forward="true" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+        <state relative-caret-position="630">
+          <caret line="84" column="45" lean-forward="true" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="78" column="68" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-model/src/main/java/com/imooc/vo/CommentVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-model/src/main/java/com/imooc/pojo/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-350">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-model/src/main/java/com/imooc/vo/FansVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-model/src/main/java/com/imooc/vo/UsersVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-model/src/main/java/com/imooc/bo/CommentBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-model/src/main/java/com/imooc/bo/VlogBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/base/insert/InsertMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.5.4/spring-data-commons-2.5.4.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/RabbitMQConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/CommentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/controller/MsgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/MsgService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/MsgServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-model/src/main/java/com/imooc/bo/UpdatedUserBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-model/src/main/java/com/imooc/bo/RegistLoginBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-mapper/src/main/java/com/imooc/repository/MessageRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="550">
+            <caret line="22" selection-start-line="22" selection-end-line="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/interceptor/PassportInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-model/src/main/java/com/imooc/vo/ShowMeBug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-api/src/main/java/com/imooc/interceptor/UserTokenInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/imooc/service/impl/VlogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="387" column="1" lean-forward="true" selection-start-line="387" selection-start-column="1" selection-end-line="387" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1227,7 +1056,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>bookmapper</last-edited>
+          <last-edited>book-model</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -7,17 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bookcommon" />
-        <module name="book-model" />
-        <module name="bookmodel" />
-        <module name="book-service" />
-        <module name="book-mapper" />
-        <module name="bookmapper" />
-        <module name="mybatis-generator-database" />
-        <module name="book-common" />
-        <module name="bookapi" />
         <module name="book-api" />
+        <module name="book-common" />
+        <module name="book-mapper" />
+        <module name="book-model" />
+        <module name="book-service" />
+        <module name="bookapi" />
+        <module name="bookcommon" />
+        <module name="bookmapper" />
+        <module name="bookmodel" />
         <module name="bookservice" />
+        <module name="mybatis-generator-database" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
